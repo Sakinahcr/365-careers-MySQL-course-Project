@@ -1,5 +1,8 @@
 # 365-careers-MySQL-course-Project
 
+https://public.tableau.com/app/profile/fatimah.sakinah/viz/Employeeanalysis_17066592726380/Dashboard1?publish=yes
+
+
 This project was from Udemy Course - _Microsoft Excel: Advanced Excel Formulas & Functions_
 
 # Advanced Excel Formulas & Functions Project
