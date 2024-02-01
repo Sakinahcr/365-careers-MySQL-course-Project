@@ -32,7 +32,7 @@ HAVING calendar_year >= 1990;
 
 #### Finding:
 
-_From year 1990 to 2002, the ratio of female to male employees are consistent of 2:3_
+_From year 1990 to 2002, the ratio of female to male employees are consistent of 2:3._
 
 <kbd>![image](https://github.com/Sakinahcr/365-careers-MySQL-course-Project/assets/132161850/10aa4914-a59f-4218-89b4-03b6a107573a)
 
@@ -73,11 +73,15 @@ ORDER BY dm.emp_no, calendar_year;
 
 #### Finding:
 
-_assa_
+_a. From the overall Area chart below we can see blue shaded area is more than orange shaded area. This means that total male managers are more than female managers._
 
 <kbd>![image](https://github.com/Sakinahcr/365-careers-MySQL-course-Project/assets/132161850/3a3533bb-9f04-49b9-962f-8064ddf07081)
 
 
+_b. Area chart below only filter in the Finance department. From the  chart below, we can conclude that in 1995, there are 5 male managers and 4 female managers which sum of 9 managers in Finannce department._
+
+
+>to insert graph
 
 #### 3. Comparison on the average salary of female versus male employees in the entire company until year 2002, and add a filter allowing you to see that per each department 
 
@@ -105,10 +109,12 @@ ORDER BY calendar_year;
 
 #### Finding:
 
-_assa_
+_a. From the line graph below, we can conclude the average salary of male employees are more than female employees. The difference might be affected by the fact that the number of male managers are more than female managers._
 
 <kbd>![image](https://github.com/Sakinahcr/365-careers-MySQL-course-Project/assets/132161850/5f147e5b-b2e4-4b72-9eaa-55fb70ea12c9)
 
+
+> b. to inser filter by dept
     
 #### 4. SQL stored procedure that will allow you to obtain the average male and female salary per department within a certain salary range. Let this range be defined by two values the user can insert when calling the procedure. Finally, visualize the obtained result-set in Tableau as a double bar chart
 
@@ -151,6 +157,6 @@ _assa_
 
 
     
-## Task visualization
+## Dashboard
 
 https://public.tableau.com/app/profile/fatimah.sakinah/viz/Employeeanalysis_17066592726380/Dashboard1?publish=yes
