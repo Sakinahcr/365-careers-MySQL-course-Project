@@ -30,7 +30,7 @@ GROUP BY calendar_year, e.gender
 HAVING calendar_year >= 1990;
 ```
 
-#### Finding:
+#### Findings:
 
 _From year 1990 to 2002, the ratio of female to male employees are consistent of 2:3._
 
@@ -71,14 +71,14 @@ WHERE
 ORDER BY dm.emp_no, calendar_year;
 ```
 
-#### Finding:
+#### Findings:
 
 _a. From the overall Area chart below we can see blue shaded area is more than orange shaded area. This means that total male managers are more than female managers._
 
 <kbd>![image](https://github.com/Sakinahcr/365-careers-MySQL-course-Project/assets/132161850/3a3533bb-9f04-49b9-962f-8064ddf07081)
 
 
-_b. Area chart below only filter in the Finance department. From the  chart below, we can conclude that in 1995, there are 5 male managers and 4 female managers which sum of 9 managers in Finannce department._
+_b. Area chart below only filter in the Finance department. From the  chart below, we can conclude that in 1995, there are 5 male managers and 4 female managers which sum of 9 managers in Finance department._
 
 <kbd>![image](https://github.com/Sakinahcr/365-careers-MySQL-course-Project/assets/132161850/40c0ac9f-ccc5-495d-8e29-94e371da6881)
 
@@ -107,14 +107,15 @@ ORDER BY calendar_year;
 
 
 
-#### Finding:
+#### Findings:
 
-_a. From the line graph below, we can conclude the average salary of male employees are more than female employees. The difference might be affected by the fact that the number of male managers are more than female managers._
+_a. From the line graph below, we can conclude the average salary of male employees are more than female employees. The difference might be affected by the fact that the number of male managers is more than female managers._
 
 <kbd>![image](https://github.com/Sakinahcr/365-careers-MySQL-course-Project/assets/132161850/5f147e5b-b2e4-4b72-9eaa-55fb70ea12c9)
 
 
-b.
+_b. Bar chart below only filter in the Finance department. From the chart below, we found that average salary both male and female employees in Finance department is 60k._
+
 <kbd>![image](https://github.com/Sakinahcr/365-careers-MySQL-course-Project/assets/132161850/9e8f2d76-9165-403d-af6f-b125dda8b56f)
 
 
@@ -153,13 +154,13 @@ CALL filter_salary(50000, 90000);
 
 #### Finding:
 
-_assa_
+_The double bar chart below is the average salary of employees with salary range between 50k and 90k. From the chart below, we can see that there is no significant difference on the average salary of male and female employees with selected salary range._
 
 <kbd>![image](https://github.com/Sakinahcr/365-careers-MySQL-course-Project/assets/132161850/9ee17b3e-b85c-442f-b32a-39496f9bce2c)
 
 
 
-    
-## Dashboard
 
-https://public.tableau.com/app/profile/fatimah.sakinah/viz/Employeeanalysis_17066592726380/Dashboard1?publish=yes
+**Note**: The live dashboard for this project can be found **[here]([url](https://public.tableau.com/app/profile/fatimah.sakinah/viz/Employeeanalysis_17066592726380/Dashboard1?publish=yes))**.
+    
+
