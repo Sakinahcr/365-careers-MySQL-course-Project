@@ -16,6 +16,7 @@ This project was from Udemy Course - _SQL - MySQL for Data Analytics and Busines
 
 #### 1. Breakdown between the male and female employees working in the company each year, starting from 1990
 
+#### Steps:
 ```sql
 SELECT 
     YEAR(de.from_date) AS calendar_year,
@@ -29,14 +30,16 @@ GROUP BY calendar_year, e.gender
 HAVING calendar_year >= 1990;
 ```
 
-#### Steps:
-
 #### Finding:
+
 <kbd>![image](https://github.com/Sakinahcr/365-careers-MySQL-course-Project/assets/132161850/10aa4914-a59f-4218-89b4-03b6a107573a)
+
+_assa_
 
 
 #### 2. Comparison on the number of male managers to the number of female managers from different departments for each year, starting from 1990 
 
+#### Steps:
 ```sql
 SELECT 
     d.dept_name,
@@ -66,14 +69,15 @@ WHERE
 ORDER BY dm.emp_no, calendar_year;
 ```
 
-#### Steps:
-
 #### Finding:
+
 <kbd>![image](https://github.com/Sakinahcr/365-careers-MySQL-course-Project/assets/132161850/5f147e5b-b2e4-4b72-9eaa-55fb70ea12c9)
 
+_assa_
 
 #### 3. Comparison on the average salary of female versus male employees in the entire company until year 2002, and add a filter allowing you to see that per each department 
 
+#### Steps:
 ```sql
 SELECT 
     e.gender,
@@ -92,15 +96,18 @@ GROUP BY d.dept_no , e.gender , calendar_year
 HAVING calendar_year <= 2002
 ORDER BY calendar_year;
 ```
-#### Steps:
+
 
 
 #### Finding:
+
 <kbd>![image](https://github.com/Sakinahcr/365-careers-MySQL-course-Project/assets/132161850/3a3533bb-9f04-49b9-962f-8064ddf07081)
 
+_assa_
     
 #### 4. SQL stored procedure that will allow you to obtain the average male and female salary per department within a certain salary range. Let this range be defined by two values the user can insert when calling the procedure. Finally, visualize the obtained result-set in Tableau as a double bar chart
 
+#### Steps:
 ```sql
 DROP procedure IF exists filter_salary;
 
@@ -129,12 +136,12 @@ DELIMITER ;
 
 CALL filter_salary(50000, 90000);
 ```
-#### Steps:
-
 
 #### Finding:
+
 <kbd>![image](https://github.com/Sakinahcr/365-careers-MySQL-course-Project/assets/132161850/9ee17b3e-b85c-442f-b32a-39496f9bce2c)
 
+_assa_
 
     
 ## Task visualization
