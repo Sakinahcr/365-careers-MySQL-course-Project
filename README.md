@@ -32,9 +32,11 @@ HAVING calendar_year >= 1990;
 
 #### Finding:
 
+_From year 1990 to 2002, the ratio of female to male employees are consistent of 2:3_
+
 <kbd>![image](https://github.com/Sakinahcr/365-careers-MySQL-course-Project/assets/132161850/10aa4914-a59f-4218-89b4-03b6a107573a)
 
-_assa_
+
 
 
 #### 2. Comparison on the number of male managers to the number of female managers from different departments for each year, starting from 1990 
@@ -71,9 +73,11 @@ ORDER BY dm.emp_no, calendar_year;
 
 #### Finding:
 
-<kbd>![image](https://github.com/Sakinahcr/365-careers-MySQL-course-Project/assets/132161850/5f147e5b-b2e4-4b72-9eaa-55fb70ea12c9)
-
 _assa_
+
+<kbd>![image](https://github.com/Sakinahcr/365-careers-MySQL-course-Project/assets/132161850/3a3533bb-9f04-49b9-962f-8064ddf07081)
+
+
 
 #### 3. Comparison on the average salary of female versus male employees in the entire company until year 2002, and add a filter allowing you to see that per each department 
 
@@ -101,9 +105,10 @@ ORDER BY calendar_year;
 
 #### Finding:
 
-<kbd>![image](https://github.com/Sakinahcr/365-careers-MySQL-course-Project/assets/132161850/3a3533bb-9f04-49b9-962f-8064ddf07081)
-
 _assa_
+
+<kbd>![image](https://github.com/Sakinahcr/365-careers-MySQL-course-Project/assets/132161850/5f147e5b-b2e4-4b72-9eaa-55fb70ea12c9)
+
     
 #### 4. SQL stored procedure that will allow you to obtain the average male and female salary per department within a certain salary range. Let this range be defined by two values the user can insert when calling the procedure. Finally, visualize the obtained result-set in Tableau as a double bar chart
 
@@ -139,9 +144,11 @@ CALL filter_salary(50000, 90000);
 
 #### Finding:
 
+_assa_
+
 <kbd>![image](https://github.com/Sakinahcr/365-careers-MySQL-course-Project/assets/132161850/9ee17b3e-b85c-442f-b32a-39496f9bce2c)
 
-_assa_
+
 
     
 ## Task visualization
