@@ -161,6 +161,6 @@ _The double bar chart below is the average salary of employees with salary range
 
 
 
-**Note**: The live dashboard for this project can be found **[here]([url](https://public.tableau.com/app/profile/fatimah.sakinah/viz/Employeeanalysis_17066592726380/Dashboard1?publish=yes))**.
+**Note**: The live dashboard for this project can be found **[here](https://public.tableau.com/app/profile/fatimah.sakinah/viz/Employeeanalysis_17066592726380/Dashboard1?publish=yes)**.
     
 
