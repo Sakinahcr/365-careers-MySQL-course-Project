@@ -80,8 +80,8 @@ _a. From the overall Area chart below we can see blue shaded area is more than o
 
 _b. Area chart below only filter in the Finance department. From the  chart below, we can conclude that in 1995, there are 5 male managers and 4 female managers which sum of 9 managers in Finannce department._
 
+<kbd>![image](https://github.com/Sakinahcr/365-careers-MySQL-course-Project/assets/132161850/40c0ac9f-ccc5-495d-8e29-94e371da6881)
 
->to insert graph
 
 #### 3. Comparison on the average salary of female versus male employees in the entire company until year 2002, and add a filter allowing you to see that per each department 
 
@@ -114,7 +114,10 @@ _a. From the line graph below, we can conclude the average salary of male employ
 <kbd>![image](https://github.com/Sakinahcr/365-careers-MySQL-course-Project/assets/132161850/5f147e5b-b2e4-4b72-9eaa-55fb70ea12c9)
 
 
-> b. to inser filter by dept
+b.
+<kbd>![image](https://github.com/Sakinahcr/365-careers-MySQL-course-Project/assets/132161850/9e8f2d76-9165-403d-af6f-b125dda8b56f)
+
+
     
 #### 4. SQL stored procedure that will allow you to obtain the average male and female salary per department within a certain salary range. Let this range be defined by two values the user can insert when calling the procedure. Finally, visualize the obtained result-set in Tableau as a double bar chart
 
